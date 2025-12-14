@@ -1,6 +1,9 @@
 #include <cstdio>
 #include <chrono>
 // this is not working properly, times are too same
+// it's probably optimized out by the compiler, exacts are unknown
+// probably written inline in main so it's optimized out
+// 
 using namespace std::chrono;
 
 template <typename F>
